@@ -38,7 +38,6 @@ const pecas = {
 let index = 1;
 
 document.querySelector('[data-cor]').addEventListener('click', (event) => {
-
     event.target.attributes.src.nodeValue = `img/robotron${index}.png`;
     
     index += 1;
@@ -84,6 +83,3 @@ function atualizaEstatisticas(peca, operacao) {
     })
 }
 
-function numMegaSena() {
-    return `analisando jogos...`;
-}
